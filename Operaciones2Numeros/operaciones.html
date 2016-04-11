@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="operaciones.php" method="get" enctype="multipart/form-dat">
+		<table>
+			<tr>
+				<td><label for="n1">Número 1</label></td>
+				<td><input type="text" name="n1" id="n1" size="10" maxlength="10"/></td>
+			</tr>
+			<tr>
+				<td><label for="operacion">Elige Operación:</label>
+				<td>
+				<select name="operacion">
+					<option>+</option>
+					<option>-</option>
+					<option>*</option>
+					<option>/</option>
+					
+				</select>
+				</td>
+			</tr>	
+			<tr>
+				<td><label for="n2">Número 2</label></td>
+				<td><input type="text" name="n2" id="n2" size="10" maxlength="10"/></td>
+			</tr>	
+			<tr>
+				<td><input type="submit" value="Calcular"/></td>
+				<td><input type="reset" value="Borrar Formulario"/></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>
