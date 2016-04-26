@@ -77,9 +77,29 @@
             $n++; //$n=$n+1;
          }
       }
-      
       return $n;
    }
+   //i=5
+   //$cadena="hola queso tal"; $buscada="que";
+   //$cadena="que tal";
+   //$cadena="hola qu"; $buscada="que";
+   //strpos($heistack,$nidle);
+   
+   function posCad($donde,$que) {
+      for($i=0;$i<strlen($donde);$i++) {
+         if ($donde[$i]==$que[0]) {
+            for($j=0;$j<strlen($que) && $donde[$i+$j]==$que[$j];$j++) {
+            }
+            if ($j>=strlen($que)) {
+               return $i;
+            }
+            //el break saltaría aquí
+         }
+      }
+      return -1;
+   }
+   
+   
    
    
    
