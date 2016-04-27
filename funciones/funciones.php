@@ -27,6 +27,7 @@
    	  if (count($a)!=count($b) or count($a[0])!=count($b[0])) {
    	  	 return $c;
    	  }
+   	  
    	  for($i=0;$i<count($a);$i++) {
    	  	 for($j=0; $j < count($a[0]); $j++) {
    	  	 	if ($op == 1 ) { // sumar
@@ -79,17 +80,11 @@
       }
       return $n;
    }
-   //i=5
-   //$cadena="hola queso tal"; $buscada="que";
-   //$cadena="que tal";
-   //$cadena="hola qu"; $buscada="que";
-   //strpos($heistack,$nidle);
    
    function posCad($donde,$que) {
       for($i=0;$i<strlen($donde);$i++) {
          if ($donde[$i]==$que[0]) {
-            for($j=0;$j<strlen($que) && $donde[$i+$j]==$que[$j];$j++) {
-            }
+            for($j=0;$j<strlen($que) && $donde[$i+$j]==$que[$j] && $i+$j<strlen($donde);$j++);
             if ($j>=strlen($que)) {
                return $i;
             }
@@ -99,8 +94,13 @@
       return -1;
    }
    
-   
-   
+   //$cadena="hola queso tal"; 
+   $buscada="que";
+   //$cadena="que pasa";
+   //$cadena="hola que";
+   //$cadena="hola, hasta luego";
+   $cadena="hola qu";   
+   $p=posCad($cadena,$buscada);
    
    
    
