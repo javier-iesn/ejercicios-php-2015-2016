@@ -1,0 +1,43 @@
+INSERT INTO agenda.amigos (
+movil ,
+telefono ,
+nombre ,
+apellido1 ,
+apellido2 ,
+email ,
+direccion ,
+cp ,
+ciudad
+)
+VALUES (
+'34956123456', '34627123456', 'Eva', 'Giner', 'Martínez', 'eva.giner@gmail.com', 'C/ Abcde, 35', '3530', 'La Nucía (Alicante)'
+);
+
+INSERT INTO agenda.amigos (
+'34956123456', '34627123456', 'Eva', 'Giner', 'Martínez', 'eva.giner@gmail.com', 'C/ Abcde, 35', '3530', 'La Nucía (Alicante)'
+);
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- formEntradaAmigos.html-->
+<form action="entradaAmigos.php" method="post" enctype="multipart/form-data">
+<input type="text" name="movil" id="movil" size="12" maxlength="12"/>
+</form>
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<!-- entradaAmigos.php -->
+<?php
+   $movil=$_POST['movil'];
+   ....
+   $ciudad=$_POST['ciudad'];
+   
+   //Chequear datos
+   //si (error en el chequeo de los datos) entonces emitir mensaje de error y cotar la ejecución
+   
+   $consulta="INSERT INTO agenda.amigos VALUES ('$movil','$telefono',...,'$ciudad');
+   //$consulta <--> "INSERT INTO agenda.amigos VALUES('34956123456','34627123456', 'Eva', 'Giner', 'Martínez', 'eva.giner@gmail.com', 'C/ Abcde, 35', '3530', 'La Nucía (Alicante)')"
+   //lanzar la consulta al servidor de bases de datos
+
+?>   
+   
+   
+   
+   
+   

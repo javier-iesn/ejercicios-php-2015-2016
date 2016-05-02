@@ -12,14 +12,15 @@
 	<table border="1">
 		<tr><th>Alumno</th><th>Nota Numérica</th><th>Nota</th></tr>
 		<?php
-			$nAlu=$_GET['nAlu'];
-			for($i=1; $i<=$nAlu; $i++) {
-				$actual="alumno"."$i"; //"alumno2"
-				$notaActual="nota"."$i"; //"nota2"
-				$nombre=$_GET[$actual];
-				$nota=$_GET[$notaActual];
+		    $alumnos=$_POST['alumnos'];
+		    $notas=$_POST['notas'];
+			$nAlu=count($alumnos);
+			$nAlu=count($notas);
+			for($i=0; $i<$nAlu; $i++) {
+				$nombre=$alumnos[$i];
+				$nota=$notas[$i];
 				if ($nota < 5) {
-					$notaSimb="Insuficiente";
+					$notaSimb="Insuficiente"; 
 				} elseif ($nota < 6 ) {
 					$notaSimb="Suficiente";
 				} else if ($nota < 7 ) {
@@ -31,6 +32,7 @@
 				} else {
 					$notaSimb="Matrícula de Honor";
 				}
+				#echo "i: $i - nombre: $nombre - nota: $nota - notasimb: $notaSimb<br/>\n";
 				//dividendo=divisor*cociente+resto
 				//resto=dividendo-divisor*cociente
 				//$resto=$i-2*int($i/2);
