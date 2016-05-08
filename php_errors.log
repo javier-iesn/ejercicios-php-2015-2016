@@ -1,0 +1,55 @@
+[02-May-2016 08:35:42 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgenda/amigosForm.php on line 22
+[02-May-2016 08:36:29 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgenda/amigosForm.php on line 21
+[04-May-2016 09:44:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php on line 8
+[04-May-2016 09:44:41 UTC] PHP Stack trace:
+[04-May-2016 09:44:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:0
+[04-May-2016 09:44:41 UTC] PHP   2. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:24
+[04-May-2016 09:44:41 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:8
+[04-May-2016 09:49:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php on line 8
+[04-May-2016 09:49:22 UTC] PHP Stack trace:
+[04-May-2016 09:49:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:0
+[04-May-2016 09:49:22 UTC] PHP   2. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:24
+[04-May-2016 09:49:22 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:8
+[04-May-2016 09:49:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php on line 8
+[04-May-2016 09:49:41 UTC] PHP Stack trace:
+[04-May-2016 09:49:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:0
+[04-May-2016 09:49:41 UTC] PHP   2. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:24
+[04-May-2016 09:49:41 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:8
+[04-May-2016 09:53:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php on line 8
+[04-May-2016 09:53:58 UTC] PHP Stack trace:
+[04-May-2016 09:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:0
+[04-May-2016 09:53:58 UTC] PHP   2. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:25
+[04-May-2016 09:53:58 UTC] PHP   3. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/funciones/bdFunc.php:8
+[06-May-2016 06:54:58 UTC] PHP Warning:  Missing argument 1 for enlaceAtras(), called in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgenda/amigosFormInserta.php on line 39 and defined in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgenda/amigosFormInserta.php on line 5
+[06-May-2016 06:54:58 UTC] PHP Stack trace:
+[06-May-2016 06:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgenda/amigosFormInserta.php:0
+[06-May-2016 06:54:58 UTC] PHP   2. enlaceAtras($textoDelEnlace = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgenda/amigosFormInserta.php:39
+[08-May-2016 19:59:26 UTC] PHP Fatal error:  Call to undefined function enlace() in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php on line 9
+[08-May-2016 19:59:26 UTC] PHP Stack trace:
+[08-May-2016 19:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php:0
+[08-May-2016 21:19:19 UTC] PHP Warning:  require(.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 42
+[08-May-2016 21:19:19 UTC] PHP Stack trace:
+[08-May-2016 21:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 21:19:19 UTC] PHP Fatal error:  require(): Failed opening required '.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 42
+[08-May-2016 21:19:19 UTC] PHP Stack trace:
+[08-May-2016 21:19:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 21:20:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 41
+[08-May-2016 21:23:04 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 43
+[08-May-2016 21:23:04 UTC] PHP Stack trace:
+[08-May-2016 21:23:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 21:23:04 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 43
+[08-May-2016 21:23:04 UTC] PHP Stack trace:
+[08-May-2016 21:23:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 21:31:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php on line 26
+[08-May-2016 22:12:54 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[08-May-2016 22:12:54 UTC] PHP Stack trace:
+[08-May-2016 22:12:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 22:12:54 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[08-May-2016 22:12:54 UTC] PHP Stack trace:
+[08-May-2016 22:12:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 22:13:05 UTC] PHP Warning:  require(buscaAmigosForm.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[08-May-2016 22:13:05 UTC] PHP Stack trace:
+[08-May-2016 22:13:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[08-May-2016 22:13:05 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[08-May-2016 22:13:05 UTC] PHP Stack trace:
+[08-May-2016 22:13:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
