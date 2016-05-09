@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <title>Agenda</title>
-   </head>
-   <body>
 <?php
    require("libreriaAgenda.php");
    $movil=$_POST['movil']; $telefono=$_POST['telefono']; $nombre=$_POST['nombre']; $apellido1=$_POST['apellido1'];
@@ -30,7 +23,7 @@
    } else {
       //            '626123459','',  'Antonio','López',   ''.       '',      ''     ,'' , '' 
       $values=array($movil,$telefono,$nombre,$apellido1,$apellido2,$email,$direccion,$cp,$ciudad);
-      $campos=array('movil','telefono','nombre','apellido1','apellido2','email','direccion','cp','ciudad');
+      $campos=getCampos("amigos");
       $consulta="INSERT INTO agenda.amigos (";
       $parteAnteValues=""; 
       $parteTrasValues=""; 
@@ -44,8 +37,11 @@
       $parteAnteValues=substr($parteAnteValues,0,strlen($parteAnteValues)-1); //quitamos la última coma de sobra
       $parteTrasValues=substr($parteTrasValues,0,strlen($parteTrasValues)-1); //ídem
       $consulta=$consulta.$parteAnteValues.") VALUES (".$parteTrasValues.")";
-      echo $consulta;
+      if (lanzarConsulta($consulta)) {
+         mensajeInfo("Registro Insertado Correctamente.");
+      } else {
+         mensajeError("Ha habido un error: ".$__mysqlErno." -> ".$__mysqlError);
+      }
+      enlaceAtras();
    }
 ?>
-   </body>
-</html>

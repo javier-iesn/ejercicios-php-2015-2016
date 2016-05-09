@@ -65,3 +65,121 @@
 [09-May-2016 08:25:41 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
 [09-May-2016 08:25:41 UTC] PHP Stack trace:
 [09-May-2016 08:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:43:11 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:43:11 UTC] PHP Stack trace:
+[09-May-2016 10:43:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:43:11 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:43:11 UTC] PHP Stack trace:
+[09-May-2016 10:43:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:43:18 UTC] PHP Warning:  require(buscaAmigosForm.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:43:18 UTC] PHP Stack trace:
+[09-May-2016 10:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:43:18 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:43:18 UTC] PHP Stack trace:
+[09-May-2016 10:43:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:48:13 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:48:13 UTC] PHP Stack trace:
+[09-May-2016 10:48:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:48:13 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:48:13 UTC] PHP Stack trace:
+[09-May-2016 10:48:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:57:02 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:57:02 UTC] PHP Stack trace:
+[09-May-2016 10:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:57:02 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:57:02 UTC] PHP Stack trace:
+[09-May-2016 10:57:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:59:27 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:59:27 UTC] PHP Stack trace:
+[09-May-2016 10:59:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 10:59:27 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 10:59:27 UTC] PHP Stack trace:
+[09-May-2016 10:59:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 11:15:08 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 11:15:08 UTC] PHP Stack trace:
+[09-May-2016 11:15:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 11:15:08 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 11:15:08 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 11:15:08 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 11:15:53 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 11:15:53 UTC] PHP Stack trace:
+[09-May-2016 11:15:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 11:15:53 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 11:15:53 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 11:15:53 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 11:16:06 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 11:16:06 UTC] PHP Stack trace:
+[09-May-2016 11:16:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 11:16:06 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 11:16:06 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 11:16:06 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 11:16:19 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 11:16:19 UTC] PHP Stack trace:
+[09-May-2016 11:16:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 11:16:19 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 11:16:19 UTC] PHP   3. lanzarConsulta() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 11:16:19 UTC] PHP   4. mysqli_set_charset() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 19:27:54 UTC] PHP Warning:  mysqli_set_charset() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 19:27:54 UTC] PHP Stack trace:
+[09-May-2016 19:27:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:27:54 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 19:27:54 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 19:27:54 UTC] PHP   4. mysqli_set_charset(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 19:28:35 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 19:28:35 UTC] PHP Stack trace:
+[09-May-2016 19:28:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:28:35 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 19:28:35 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 19:28:35 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 19:28:47 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 24
+[09-May-2016 19:28:47 UTC] PHP Stack trace:
+[09-May-2016 19:28:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:28:47 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 19:28:47 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 19:28:47 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:24
+[09-May-2016 19:30:05 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 26
+[09-May-2016 19:30:05 UTC] PHP Stack trace:
+[09-May-2016 19:30:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:30:05 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 19:30:05 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 19:30:05 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:26
+[09-May-2016 19:30:24 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 26
+[09-May-2016 19:30:24 UTC] PHP Stack trace:
+[09-May-2016 19:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:30:24 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 19:30:24 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/listaAmigos.php:3
+[09-May-2016 19:30:24 UTC] PHP   4. mysqli_set_charset(*uninitialized*, *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:26
+[09-May-2016 19:33:55 UTC] PHP Warning:  require(buscaAmigosForm.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 19:33:55 UTC] PHP Stack trace:
+[09-May-2016 19:33:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:33:55 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 19:33:55 UTC] PHP Stack trace:
+[09-May-2016 19:33:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:35:02 UTC] PHP Warning:  require(buscaAmigosForm.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 19:35:02 UTC] PHP Stack trace:
+[09-May-2016 19:35:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 19:35:02 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 19:35:02 UTC] PHP Stack trace:
+[09-May-2016 19:35:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 20:49:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 42
+[09-May-2016 20:49:00 UTC] PHP Stack trace:
+[09-May-2016 20:49:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 20:49:00 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 20:49:00 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php:40
+[09-May-2016 20:49:00 UTC] PHP   4. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:42
+[09-May-2016 20:49:00 UTC] PHP Warning:  mysqli_errno() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php on line 43
+[09-May-2016 20:49:00 UTC] PHP Stack trace:
+[09-May-2016 20:49:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 20:49:00 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 20:49:00 UTC] PHP   3. mysqli_errno() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php:43
+[09-May-2016 20:49:00 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php on line 43
+[09-May-2016 20:49:00 UTC] PHP Stack trace:
+[09-May-2016 20:49:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 20:49:00 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 20:49:00 UTC] PHP   3. mysqli_error() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php:43
+[09-May-2016 21:03:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php on line 43
+[09-May-2016 21:03:03 UTC] PHP Stack trace:
+[09-May-2016 21:03:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 21:03:03 UTC] PHP   2. require() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:46
+[09-May-2016 21:03:03 UTC] PHP   3. lanzarConsulta($consulta = *uninitialized*, $user = *uninitialized*, $pass = *uninitialized*, $bd = *uninitialized*, $server = *uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/amigosFormInserta.php:40
+[09-May-2016 21:03:03 UTC] PHP   4. mysqli_num_rows(*uninitialized*) /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/libreriaAgenda.php:43

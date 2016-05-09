@@ -29,10 +29,10 @@
       <div id="menu">
          <table>
             <tr style="background-color: lightgreen;">
-               <td><a title="Alta Amigos" href="?contenido=amigosForm">Alta de Amigos</a></td>
+               <td><a title="Alta Amigos" href="index.php?contenido=amigosForm">Alta de Amigos</a></td>
             </tr>
             <tr style="background-color: lightgreen;">
-               <td><a title="Listado Amigos" href="?contenido=listaAmigos">Listado de Amigos</a></td>
+               <td><a title="Listado Amigos" href="index.php?contenido=listaAmigos">Listado de Amigos</a></td>
             </tr>
             <tr style="background-color: lightgreen;">
                <td><a title="Búsqueda Amigos" href="?contenido=buscaAmigosForm">Búsqueda de Amigos</a></td>

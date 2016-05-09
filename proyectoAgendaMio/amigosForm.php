@@ -18,7 +18,7 @@
    }
    $campos=array('movil' => 12,  'telefono' => 12, 'nombre' => 40, 'apellido1' => 25, 'apellido2' => 25, 'email' => 50, 
                  'direccion' => 50, 'cp' => 5, 'ciudad' => 30);
-   formulario($campos,"amigosFormInserta.php","Alta de Amigos");
+   formulario($campos,"?contenido=amigosFormInserta","Alta de Amigos");
 ?>
 <!--      
 <form action="amigosFormInserta.php" method="post" enctype="multipart/form-data">
