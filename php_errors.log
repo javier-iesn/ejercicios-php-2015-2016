@@ -53,3 +53,15 @@
 [08-May-2016 22:13:05 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
 [08-May-2016 22:13:05 UTC] PHP Stack trace:
 [08-May-2016 22:13:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 08:25:32 UTC] PHP Warning:  require(listaAmigos.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 08:25:32 UTC] PHP Stack trace:
+[09-May-2016 08:25:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 08:25:32 UTC] PHP Fatal error:  require(): Failed opening required 'listaAmigos.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 08:25:32 UTC] PHP Stack trace:
+[09-May-2016 08:25:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 08:25:41 UTC] PHP Warning:  require(buscaAmigosForm.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 08:25:41 UTC] PHP Stack trace:
+[09-May-2016 08:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
+[09-May-2016 08:25:41 UTC] PHP Fatal error:  require(): Failed opening required 'buscaAmigosForm.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php on line 46
+[09-May-2016 08:25:41 UTC] PHP Stack trace:
+[09-May-2016 08:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/ejercicios-php-2015-2016/proyectoAgendaMio/index.php:0
